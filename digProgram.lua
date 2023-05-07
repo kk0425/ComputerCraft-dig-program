@@ -39,7 +39,7 @@ if makeDoor then
 
   --moves to starting position
   turtle.turnLeft()
-  for i=0, math.floor(width / 2) - 1 do
+  for i=1, math.floor(width / 2) do
     turtle.dig()
     turtle.forward()
   end
